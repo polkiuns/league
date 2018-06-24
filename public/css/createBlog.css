@@ -1,0 +1,85 @@
+
+.my-4 {
+		color: #c9aa71 !important;
+		font-family: lol !important;
+		text-align: center;	
+}
+
+.card-header{
+		color: #c9aa71 !important;
+		font-family: lol !important;
+		text-align: center;
+		background-color: #212529 !important;
+}
+
+.card-body {
+		font-family: lol !important;
+		text-align: center;
+		background-color: silver !important;
+		border-left: 1px;	
+}
+
+.card-footer{
+		color: #c9aa71 !important;
+		font-family: lol !important;
+		text-align: center;
+		background-color: #212529 !important;
+}
+
+.btn-primary {
+	background-color:  #c9aa71 !important;
+	border-color: #c9aa71 !important;ç
+	padding: 5px;
+}
+
+.btn-primary:hover {
+	background-color: #292d33  !important;
+	border-color: #292d33 !important;
+}
+
+.btn-secondary {
+	background-color:  #c9aa71 !important;
+	border-color: #c9aa71 !important;
+}
+
+.btn-secondary:hover {
+	background-color: #292d33  !important;
+	border-color: #292d33 !important;
+}
+
+ p {
+		color: #CEC1A3 !important;
+		font-family: lol !important;
+}
+
+ hr.style-seven { 
+ 	overflow: visible; /* For IE */ 
+ 	height: 30px; 
+ 	border-style: solid; 
+ 	border-color: #c9aa71; 
+ 	border-width: 1px 0 0 0;
+ 	 border-radius: 20px; 
+ 	 } 
+ 	 hr.style-seven:before { 
+ 	 	/* Not really supposed to work, but does */ 
+ 	 	display: block; content: ""; 
+ 	 	height: 30px; 
+ 	 	margin-top: -31px; 
+ 	 	border-style: solid; 
+ 	 	border-color: #c9aa71; 
+ 	 	border-width: 0 0 1px 0; 
+ 	 	border-radius: 20px; 
+ 	 }
+
+ 	small {
+		color: #C7AA60 !important;
+		font-family: lol !important; 	 	
+ 	 }
+
+ 	 label {
+ 		color: #C7AA60 !important;
+		font-family: lol !important; 
+		font-size: 15px;
+		padding-top: 10px; 	
+
+ 	 }

@@ -1,0 +1,17 @@
+
+#sideblog {
+
+	background: url(https://fantasy.eslgaming.com/img/bg.jpg?50dff73) no-repeat center center fixed;
+    float: left !important;
+    height: 100% !important;
+    width: 370px !important;
+    position: fixed !important;
+    top: 100 !important;
+    right: 0 !important; 
+    margin-right: 230px !important;
+
+}
+
+#classButton {
+	background-color:  #c9aa71 !important;
+}

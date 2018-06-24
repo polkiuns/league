@@ -1,0 +1,108 @@
+
+  .bg-dark{
+    background-color: #121212 !important;
+  }
+ @font-face {
+    font-family: lol;
+    src: url(FritzQuadrata);
+}
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: #c9aa71 !important;
+
+		font-family: lol !important;
+		font-size: 15px;
+		font-weight: bold !important;
+		padding: 10px;
+	}
+
+	body {
+        background: url(fondo.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+
+.container {
+	background-color: white !important; 
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+		background: url(https://fantasy.eslgaming.com/img/bg.jpg?50dff73);
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #BA9C59 0%, #94743E 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+}
+
+.my-4 {
+		color: #c9aa71 !important;
+		font-family: lol !important;
+		text-align: center;	
+}
+
+.card-header{
+		color: #c9aa71 !important;
+		font-family: lol !important;
+		text-align: center;
+		background-color: #121212 !important;
+}
+
+.card-body {
+		font-family: lol !important;
+		text-align: center;
+		background-color: silver !important;
+		border-left: 1px;	
+}
+
+.card-footer{
+		color: #c9aa71 !important;
+		font-family: lol !important;
+		text-align: center;
+		background-color: #121212 !important;
+}
+
+.btn-primary {
+	background-color:  #c9aa71 !important;
+	border-color: #c9aa71 !important;
+}
+
+.btn-primary:hover {
+	background-color: #292d33  !important;
+	border-color: #292d33 !important;
+}
+
+.btn-secondary {
+	background-color:  #c9aa71 !important;
+	border-color: #c9aa71 !important;
+}
+
+.btn-secondary:hover {
+	background-color: #292d33  !important;
+	border-color: #292d33 !important;
+}
+
+#parrafo {
+		color: #CEC1A3 !important;
+		font-family: lol !important;
+}
+
+ hr.style-seven { 
+ 	overflow: visible; /* For IE */ 
+ 	height: 30px; 
+ 	border-style: solid; 
+ 	border-color: #c9aa71; 
+ 	border-width: 1px 0 0 0;
+ 	 border-radius: 20px; 
+ 	 } 
+ 	 hr.style-seven:before { 
+ 	 	/* Not really supposed to work, but does */ 
+ 	 	display: block; content: ""; 
+ 	 	height: 30px; 
+ 	 	margin-top: -31px; 
+ 	 	border-style: solid; 
+ 	 	border-color: #c9aa71; 
+ 	 	border-width: 0 0 1px 0; 
+ 	 	border-radius: 20px; 
+ 	 }

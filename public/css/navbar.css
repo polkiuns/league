@@ -1,0 +1,38 @@
+.bg-dark{
+    background-color: #121212 !important;
+  }
+ @font-face {
+    font-family: lol;
+    src: url(FritzQuadrata);
+}
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: #c9aa71 !important;
+		font-family: lol !important;
+		font-size: 15px;
+		font-weight: bold !important;
+		padding: 10px;
+	}
+
+	body {
+        background: url(fondo.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+
+}
+
+.container {
+	background-color: white !important; 
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+		background: url(https://fantasy.eslgaming.com/img/bg.jpg?50dff73) no-repeat center center fixed;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #BA9C59 0%, #94743E 100%);
+  border-image-slice: 1;
+  box-sizing: border-box;
+       overflow: hidden;
+       position: relative;
+}
