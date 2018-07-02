@@ -152,6 +152,7 @@ return [
          */
         Spatie\Permission\PermissionServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        Tightenco\Ziggy\ZiggyServiceProvider::class,
         /*
          * Application Service Providers...
          */

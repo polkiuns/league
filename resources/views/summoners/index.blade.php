@@ -3,32 +3,29 @@
 @push('styles')
 <link rel="stylesheet" type="text/css" href="/css/modificadorContact.css">
 @endpush
+    <br>
+@if(count($summoner))
 
-    {!! Form::open(['route' => 'summoner.create']) !!}
-    @csrf
-
-        <div class="box">
-          <div class="box-body">
-          	<div class="form-row">
-              <div class="col {{$errors->has('name') ? 'has-error' : ''}}" >
-              	{!!Form::label('name', 'Nombre')!!}
-                {!!Form::text('name', old('name') ,['placeholder' => 'Escriba su nombre, porfavor' , 'class' => 'form-control', 'v-model' => 'summoner'])!!}
-                {!! $errors->first('name', '<span class="help-block">:message</span>')!!}     
-              </div>
-              <div class="form-group">
-                <label></label>
-                  <button type="submit" class="btn btn-primary btn-block" id="enviar">Enviar mensaje</button>
-              </div>
-
-        </div>
-      </div>
-      <summoner></summoner>
-    </div>
- 
-    {!! Form::close() !!}
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="http://ddragon.leagueoflegends.com/cdn/8.13.1/img/profileicon/{{$summoner->profile_icon}}.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Nombre: {{ $summoner->name }}</h5>
+        <h5 class="card-title">{{$summoner->level}}</h5>
+  </div>
+</div>
+	
+@else
+<div id="app">
+  <Summoner></Summoner>
+</div>
+	<br>
+@endif
 
 
 @endsection
+@if(!count($summoner))
 @push('scripts')
-<script src="{{ elixir('js/app.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 @endpush
+@endif
+

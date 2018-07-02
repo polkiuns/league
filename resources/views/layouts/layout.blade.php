@@ -52,10 +52,10 @@
           </li>
           @role('standard')
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Configuracion</a>
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Summoner</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="{{route('profiles.index')}}">Perfil</a>
               <a class="dropdown-item" href="{{route('summoner.index')}}">Mi summonner</a>
+              <a class="dropdown-item" href="{{route('summoner.show')}}">Buscar compañeros</a>
             </div>
           </li>
           @endrole

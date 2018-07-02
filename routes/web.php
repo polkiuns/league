@@ -33,6 +33,8 @@ Route::get('MyProfile' , 'ProfilesController@index')->name('profiles.index');
 //Ruta summoner
 Route::get('MySummoner' , 'SummonersController@index')->name('summoner.index');
 Route::post('MySummoner' , 'SummonersController@create')->name('summoner.create');
+Route::post('MySummoner/store' , 'SummonersController@store')->name('summoner.store');
+Route::get('search/summoners' , 'SummonersController@show')->name('summoner.show');
 
 
 
